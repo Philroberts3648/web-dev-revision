@@ -1,17 +1,27 @@
 body {
-    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+}
+
+#main-container {
+    font-family: helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
+}
+
+
+.first-container {
+    background-image: url(./Images/mission-background.webp);
+    height: 700px;
+    width: 1200px;
+}
+
+.mission-text {
+    position: relative;
+    top: 50%;
+    background-color: black;
     text-align: center;
-}
-
-#header {
-    display: flex;
-}
-
-.nav{
-    display: flex;
-    list-style: none;
+    opacity: 0.9;
 }
