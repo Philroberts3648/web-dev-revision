@@ -82,7 +82,7 @@ const determineWinner = (userChoice, computerChoice) => {
 // console.log(determineWinner('scissors', 'scissors'));
 
 const playGame = () => {
-  let userChoice = getUserChoice('bomb');
+  let userChoice = getUserChoice('paper');
   let computerChoice = getComputerChoice();
   console.log(userChoice);
   console.log(computerChoice);
