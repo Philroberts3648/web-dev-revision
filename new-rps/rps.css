@@ -2,10 +2,10 @@
     max-width: 400px;
     position: relative;
     margin: auto;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
-.header {
+.header { 
     background-color: beige;
     color: blue;
     text-align: center;
